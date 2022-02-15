@@ -1,0 +1,181 @@
+@media (max-width: 1450px) {
+	.header {
+		&__container {
+			max-width: 1300px;
+		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.header {
+		&__container {
+			max-width: 1250px;
+		}
+		.support {
+			&__content {
+				max-width: 644px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.header {
+		&__container {
+			max-width: 1100px;
+		}
+		.support {
+			&__content {
+				max-width: 644px;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.support {
+		&__image {
+			display: none;
+		}
+	}
+	.navbar-menu {
+		flex-direction: column;
+		align-items: center;
+		&__button {
+			margin-right: 0;
+			margin-bottom: 8px;
+		}
+	}
+	.contacts__content {
+		flex-wrap: wrap;
+	}
+	.links {
+		margin-top: 12px;
+	}
+	.container {
+		max-width: 576px;
+	}
+	.header {
+		&__container {
+			max-width: 767px;
+		}
+	}
+	.delivery {
+		max-width: 500px;
+	}
+	.categories{
+		&__subtitle{
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.header {
+		&__container {
+			max-width: 576px;
+		}
+	}
+	.container {
+		max-width: 480px;
+	}
+	.support {
+		&__title {
+			font-size: 40px;
+		}
+	}
+	.questions {
+		&__title {
+			font-size: 25px;
+		}
+	}
+	.reference {
+		&__title {
+			font-size: 25px;
+		}
+	}
+	.contacts {
+		&__subtitle {
+			font-size: 30px;
+		}
+	}
+	.delivery {
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 576px) {
+	.swiper-slide {
+		max-width: 250px;
+	}
+	.container {
+		max-width: 368px;
+	}
+	.header {
+		&__container {
+			max-width: 480px;
+		}
+	}
+	.support {
+		&__subtitle {
+			display: none;
+		}
+	}
+	.support {
+		&__title {
+			margin-bottom: 12px;
+		}
+	}
+	.delivery {
+		max-width: 300px;
+	}
+	.connection {
+		&__button {
+			padding: 5px 20px;
+		}
+	}
+	.slider-wrapper {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.links {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&__item {
+			margin-bottom: 5px;
+		}
+		&__item:last-child {
+			margin-right: 14px;
+		}
+	}
+	.container {
+		max-width: 250px;
+	}
+	.header {
+		&__container {
+			max-width: 300px;
+		}
+	}
+	.support {
+		&__title {
+			display: none;
+		}
+	}
+	.navbar-menu {
+		margin-top: 25px;
+	}
+	.support {
+		margin-bottom: 25px;
+	}
+	.contacts {
+		margin-bottom: 25px;
+	}
+	.questions {
+		margin-bottom: 25px;
+	}
+	.delivery {
+		max-width: 270px;
+	}
+}
